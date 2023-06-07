@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="cadastro_action.php" method="post">
+            <div class="form first">
+                <div class="details personal">
+                    <hr>
+                    <span class="title">Informações Pessoais do Paciente</span>
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Nome Completo</label>
+                            <input type="text" placeholder="Insira o nome completo" name="nome" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Data de Nascimento</label>
+                            <input type="date" placeholder="Insira a data de aniversario" name="niver" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="text" placeholder="Coloque seu email" name="email" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Número do Celular></label>
+                            <input type="tel" placeholder="Digite o nº do celular" name="cell" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Sexo</label>
+                            <select required name="sexo">
+                                <option disabled selected>Seleciona seu sexo</option>
+                                <option>Masculino</option>
+                                <option>Feminino</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <label>Nº do CPF</label>
+                            <input type="text" placeholder="Digite o cpf" name="cpf" required>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="details ID">
+                    <span class="title">Informações Complementares</span>
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>CEP</label>
+                            <input type="text" placeholder="Informe o seu CEP" name="cep" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Bairro</label>
+                            <input type="text" placeholder="Informe o seu bairro" name="bairro" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Endereço</label>
+                            <input type="text" placeholder="Digite seu endereço" name="end" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Nº</label>
+                            <input type="text" placeholder="Informe o n°" name="n" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Complemento</label>
+                            <input type="text" placeholder="Informe o complemento" name="comp" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Cidade</label>
+                            <input type="text" placeholder="Informe a cidade" required name="cidade">
+                        </div>
+                        <div class="input-field">
+                            <label>Estado</label>
+                            <select name="estado" required>
+                                <option disabled selected>Escolha seu estado</option>
+                                <option>AC</option>
+                                <option>AL</option>
+                                <option>AP</option>
+                                <option>AM</option>
+                                <option>BA</option>
+                                <option>CE</option>
+                                <option>ES</option>
+                                <option>GO</option>
+                                <option>MA</option>
+                                <option>MT</option>
+                                <option>MS</option>
+                                <option>MG</option>
+                                <option>PA</option>
+                                <option>PB</option>
+                                <option>PR</option>
+                                <option>PE</option>
+                                <option>PI</option>
+                                <option>RJ</option>
+                                <option>RN</option>
+                                <option>RS</option>
+                                <option>RO</option>
+                                <option>RR</option>
+                                <option>SC</option>
+                                <option>SP</option>
+                                <option>SE</option>
+                                <option>TO</option>
+                            </select>
+                        </div>
+                        <hr>
+                    </div>
+                    <hr>
+                    <div class="container1">
+                        <form action="cadastro_action.php" method="post">
+                            <div class="form first">
+                                <div class="details personal">
+                                    <span class="title">Informações do Usuario</span>
+
+                                    <div class="fields">
+                                        <div class="input-field">
+                                            <label>Usuario</label>
+                                            <input type="text" placeholder="Insira o nome completo" name="nome"
+                                                required>
+                                        </div>
+
+                                        <div class="input-field">
+                                            <label>Senha</label>
+                                            <input type="text" placeholder="Insira a senha" name="niver" required>
+                                        </div>
+                                        <div class="input-field">
+                                            <label>Confirmar senha</label>
+                                            <input type="text" placeholder="Confirma a sua senha" name="email" required>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+</body>
+
+</html>
